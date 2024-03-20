@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img{
+    width: 300px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+/* Secciones */
+section {
+    padding: 10px 0;
+}
+
+/*imagenes de las secciones*/
+#servicios img{
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+#ejemplos img{
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+#proceso img{
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+#testimonios img{
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+#contacto img{
+    width: 95%;
+    height: auto;
+    margin: 10px;
+}
+
+/*Cajas del main*/
+#servicios{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#ejemplos{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#proceso{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#testimonios{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+#contacto{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* FlexBox del main*/
+.modelo-de-cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*oculto*/
+#servicios ul{
+    display: none;
+}
+
+/*para pantallas menores de 950px*/
+@media screen and (max-width: 950px) {
+    header img{
+        display: none;
+    }
+}
