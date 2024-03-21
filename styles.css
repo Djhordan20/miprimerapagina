@@ -131,3 +131,8 @@ footer a:hover {
         display: none;
     }
 }
+
+/*Estilo de prueba*/
+.greeting{
+    border: solid;
+}
